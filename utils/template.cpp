@@ -29,7 +29,8 @@ typedef V<int> vi;
 typedef V<S> vs;
 typedef long long ll;
 typedef pair<int,int> pii;
-
+const int MOD7 = 1000000000+7;
+const int MOD9 = 1000000000+9;
 /* ################### Program Body starts here ################ */
 
 
