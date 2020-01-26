@@ -14,6 +14,7 @@ using namespace std;
 #define pb                      push_back
 #define mp                      make_pair
 #define all(a)                  a.begin(),a.end()
+#define fill(a, v)              memset(a, v, sizeof(a))
 #define inf                     (int)1e9
 #define linf                    (long long)1e18
 #define V                       vector
