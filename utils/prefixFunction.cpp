@@ -1,3 +1,5 @@
+// Given a string, returns a vector of same length, where ans[i] (0<=i<n) i
+// the longest proper prefix of s[0..i] that is also a sufix of s[0..i]
 vector<int> prefixFunction(string& s) {
     int n = int(s.size());
     vector<int> ans(n);
@@ -12,3 +14,4 @@ vector<int> prefixFunction(string& s) {
     }
     return ans;
 }
+
